@@ -12,7 +12,7 @@
     <header class="header">
         <img src="images/logo_place_header.svg" alt="Логотип" class="logo logo_place_header">
         <h1 class="header__title">Научиться учиться</h1>
-        <h2 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" class="header__link">Узнать →</a></h2>
+        <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" class="header__link">Узнать →</a></p>
         <div class="header__main-illustration"></div>
         <div class="header__square-pic"></div>
     </header>
@@ -40,7 +40,7 @@
           <li class="table__cell">
             <h4 class="table__heading">2,1 миллиарда</h4>
             <p class="table__text">Число нуждающихся в повышении квалификации.</p>
-            <p class="table__text table__text_padding">Всемирный Банк, 2017</p>
+            <p class="table__text">Всемирный Банк, 2017</p>
           </li>
           <li class="table__cell">
             <h4 class="table__heading">1000 терабайт</h4>
@@ -53,7 +53,7 @@
           <li class="table__cell">
             <h4 class="table__heading">420 миллионов</h4>
             <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
-            <p class="table__text table__text_padding">Всемирный Банк, 2017</p>
+            <p class="table__text">Всемирный Банк, 2017</p>
           </li>
           <li class="table__cell">
             <h4 class="table__heading">17-20 лет</h4>
@@ -122,30 +122,30 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <img src="images/kaufman-triangle.svg" alt="Треугольник" class="kaufman__triangle">
+        <div class="kaufman__triangle"></div>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
           <div class="logo logo_place_footer"></div>
-          <p class="footer_author">&copy; 2019. Виктор Абанькин</p>
+          <p class="footer__author">&copy; 2019. Виктор Абанькин</p>
         </div>
-        <div class="footer__column footer__column_content_info">
-          <p class="footer__column-heading">О практикуме</p>
-          <div class="footer__column-links">
-            <p class="footer__column-text"><a href="#" class="footer__column-text-link">Главная</a></p> 
-            <p class="footer__column-text"><a href="#" class="footer__column-text-link">Концепция</a></p>
-            <p class="footer__column-text"><a href="#" class="footer__column-text-link">Наставники</a></p>
-          </div>
-        </div>
+        <nav class="footer__column footer__column_content_info">
+          <h4 class="footer__column-heading">О практикуме</h4>
+          <ul class="footer__column-links">
+            <li class="footer__column-item"><a href="#" class="footer__column-link">Главная</a></li> 
+            <li class="footer__column-item"><a href="#" class="footer__column-link">Концепция</a></li>
+            <li class="footer__column-item"><a href="#" class="footer__column-link">Наставники</a></li>
+          </ul>
+        </nav>
         <div class="footer__column footer__column_content_social">
-          <p class="footer__column-heading">Соцсети</p>
-          <div class="footer__column-links">
-            <p class="footer__column-text"><a href="#" class="footer__column-text-link"><img src="images/facebook_color_white.svg" alt="Иконка Фэйсбук" class="footer__icon">Facebook</a></p>
-            <p class="footer__column-text"><a href="#" class="footer__column-text-link"><img src="images/vk_color_white.svg" alt="Иконка Вконтакте" class="footer__icon">ВКонтакте</a></p>
-            <p class="footer__column-text"><a href="#" class="footer__column-text-link"><img src="images/instagram_color_white.svg" alt="Иконка Инстаграм" class="footer__icon">Instagram</a></p>
-          </div>
+          <h4 class="footer__column-heading">Соцсети</h4>
+          <ul class="footer__column-links">
+            <li class="footer__column-item"><a href="#" class="footer__column-link"><img src="images/facebook_color_white.svg" alt="Иконка Фэйсбук" class="footer__social-icon">Facebook</a></li>
+            <li class="footer__column-item"><a href="#" class="footer__column-link"><img src="images/vk_color_white.svg" alt="Иконка Вконтакте" class="footer__social-icon">ВКонтакте</a></li>
+            <li class="footer__column-item"><a href="#" class="footer__column-link"><img src="images/instagram_color_white.svg" alt="Иконка Инстаграм" class="footer__social-icon">Instagram</a></li>
+          </ul>
         </div>
       </div>
     </footer>
