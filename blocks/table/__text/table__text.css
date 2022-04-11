@@ -1,0 +1,13 @@
+.table__text {
+    margin: 0;
+    line-height: 1.2;
+    font-size: 18px;
+  }
+  
+  .table__text:last-child {
+    padding: 20px 0 0;
+  } 
+  
+  .table__text:only-of-type {
+    padding: 0;
+  }
